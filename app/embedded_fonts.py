@@ -99,7 +99,7 @@ def embed_fonts(pdf_data):
             "-c",
             "<</NeverEmbed [ ]>> setdistillerparams",
             "-f",
-            "%stdin",
+            "-",
         ],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
